@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build a Pomodoro Clock</title>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 class="title">Pomodoro Clock</h2>
+        <div class="controls">
+            <div class="control break">
+                <h5>Break Length</h5>
+                <div>
+                    <span class="controlBtn breakDown">-</span>
+                    <span class="length breakLength">1</span> 
+                    <span class="controlBtn breakUp">+</span>
+                </div>
+            </div>
+            <div class="control session">
+                <h5>Session Length</h5>
+                <div>
+                    <span class="controlBtn sessionDown">-</span>
+                    <span class="length sessionLength">1</span>
+                    <span class="controlBtn sessionUp">+</span>
+                </div>
+            </div>
+        </div>
+       <div class="wrap">
+                <div class="circle">
+                    <h3 class="title">Session</h3>
+                    <h3 class="time">1</h3>
+                    <div class="show"></div>
+                </div>
+       </div>
+    </div>
+
+    <script src="//lib.baomitu.com/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
